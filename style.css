@@ -1,0 +1,29 @@
+.grid {
+    height: 300px; /* setting height*/
+    width: 300px; /*setting width */
+    border: solid 1px; /* 1 px solid border */
+    display: flex; /* display flex for Making the div element inside Grid on Top of Each other*/
+    flex-wrap: wrap;
+}
+
+.grid div{
+    height: 20px; /*height*/
+    width: 20px; /*width*/
+}
+
+.shooter {
+    background-color: blue; /* setting shooter color to blue*/
+}
+
+.invader{
+    background-color: purple; /*setting invader color to purple*/
+    border-radius: 10px; /*setting radious 10px , so invader will be in circle shape*/
+}
+
+.boom{ 
+    background-color: red; /* setting boom color to red */
+}
+
+.laser {
+    background-color: orange; /*setting laser color to Orange*/
+}
